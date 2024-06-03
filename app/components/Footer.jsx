@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 w-full dark:bg-neutral-950">
+    <footer className=" w-full">
       <div className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8  mx-auto">
         <div className="mt-5 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
           <div className="flex justify-between items-center">
-            <p className="text-sm text-gray-400 dark:text-neutral-400">
+            <p className="text-sm text-white  font-semibold">
               © 2024 AR CHAUHAN. All rights reserved.
             </p>
           </div>
