@@ -6,15 +6,17 @@ import Navbar from "./components/Navbar";
 import Timeline from "./components/Timeline";
 import Projects from "./components/Projects";
 import Header from "./components/Header";
-import Head from "next/head";
+
+
+export const metadata = {
+  title: "AR CHAUHAN",
+  description: "AR Chauhan's Portfolio",
+};
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>AR CHAUHAN</title>
-        <meta name="description" content="Portfolio of AR Chauhan" />
-      </Head>
+     
       <Header />
       <Navbar />
       <Hero />
