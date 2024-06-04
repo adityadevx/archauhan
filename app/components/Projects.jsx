@@ -49,7 +49,7 @@ const projects = [
   },
   {
     title: "DNC Tool",
-    thumbnail: "/transcribe.png",
+    thumbnail: "/dnc.png",
     stack: ["/nextjs.png", "/nodejs.svg", "mongodb.svg", "/chakra.svg"],
     type: "Full Stack Development",
     description:

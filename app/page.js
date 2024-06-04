@@ -1,5 +1,3 @@
-
-
 import Tech from "@/app/components/Tech";
 import Image from "next/image";
 import Hero from "./components/Hero";
@@ -9,11 +7,14 @@ import Timeline from "./components/Timeline";
 import Projects from "./components/Projects";
 import Header from "./components/Header";
 
-
 export default function Home() {
   return (
     <>
-    <Header />
+      <Head>
+        <title>AR CHAUHAN</title>
+        <meta name="description" content="Portfolio of AR Chauhan" />
+      </Head>
+      <Header />
       <Navbar />
       <Hero />
       <main className="flex min-h-screen flex-col items-center justify-between ">
@@ -21,7 +22,7 @@ export default function Home() {
         {/* <Tech /> */}
         {/* <Timeline /> */}
       </main>
-    
+
       <Footer />
     </>
   );
