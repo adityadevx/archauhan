@@ -9,7 +9,7 @@ const projects = [
     title: "Care For Indians",
     thumbnail: "/test.png",
     stack: [
-      "/react.svg",
+      "/nextjs.png",
       "/tailwind.svg",
       "/mongodb.svg",
       "/nextauth.png",
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Lunch Money",
     thumbnail: "/lunchmoney.png",
-    stack: ["/react.svg", "/bootstrap.svg", "/mongodb.svg"],
+    stack: ["/nextjs.png", "/bootstrap.svg", "/mongodb.svg"],
     type: "Full Stack Development",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -32,7 +32,7 @@ const projects = [
   {
     title: "R For Red",
     thumbnail: "/rforred.png",
-    stack: ["/react.svg", "/bootstrap.svg"],
+    stack: ["/nextjs.png", "/bootstrap.svg"],
     type: "Frontend Development",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -41,7 +41,7 @@ const projects = [
   {
     title: "Carca Rapid Solutions",
     thumbnail: "/carca.png",
-    stack: ["/react.svg", "/bootstrap.svg"],
+    stack: ["/nextjs.png", "/bootstrap.svg"],
     type: "Frontend Development",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -50,7 +50,7 @@ const projects = [
   {
     title: "DNC Tool",
     thumbnail: "/transcribe.png",
-    stack: ["/react.svg", "/nodejs.svg", "mongodb.svg", "/chakra.svg"],
+    stack: ["/nextjs.png", "/nodejs.svg", "mongodb.svg", "/chakra.svg"],
     type: "Full Stack Development",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -114,7 +114,7 @@ export default function Projects() {
                     })}
                   </div>
                   {project.link === "#" ? (
-                    <span className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400">
+                    <span className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-white hover:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-blue-400">
                       Closed
                       <svg
                         className="flex-shrink-0 w-4 h-4"
@@ -133,7 +133,7 @@ export default function Projects() {
                     </span>
                   ) : (
                     <Link
-                      className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400"
+                      className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-blue-400"
                       href={project.link}
                       target="_blank"
                       rel="noreferrer noopener"
