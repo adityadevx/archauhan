@@ -86,7 +86,7 @@ export default function Projects() {
         {projects.map((project) => {
           return (
             <div className="border-3 border-white rounded-xl overflow-hidden shadow-lg">
-              <div className="flex flex-col bg-white border-2 hover:border-blue-900 shadow-sm rounded-xl p-4 md:p-4 dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+              <div className="flex flex-col bg-white border-2 hover:border-white shadow-sm rounded-xl p-4 md:p-4 dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
                 <div className="relative h-64">
                   <Image
                     src={project.thumbnail}
