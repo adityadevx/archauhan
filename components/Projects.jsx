@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Lunch Money",
     thumbnail: "/lunchmoney.png",
-    stack: ["/nextjs.png", "/bootstrap.svg", "/mongodb.svg"],
+    stack: ["/nextjs.png", "/bootstrap.svg", "/mongodb.svg","twilio.svg"],
     type: "Full Stack Development",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
