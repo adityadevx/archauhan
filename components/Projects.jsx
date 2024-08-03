@@ -6,8 +6,17 @@ import Link from "next/link";
 
 const projects = [
   {
+    title: "Food Commerce (College Project)",
+    thumbnail: "/food-commerce.png",
+    stack: ["/nextjs.png", "/tailwind.svg", "/mongodb.svg", "/nextauth.png"],
+    type: "Full Stack Development",
+    description:
+      "College project for food commerce. It is a full stack project with Next.js, Tailwind CSS, MongoDB, and NextAuth.",
+    link: "#",
+  },
+  {
     title: "Care For Indians",
-    thumbnail: "/test.png",
+    thumbnail: "/careforindians.png",
     stack: [
       "/nextjs.png",
       "/tailwind.svg",
@@ -17,16 +26,16 @@ const projects = [
     ],
     type: "Full Stack Development",
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "A platform for people to find and services such as child care, meal care, and more. It is a full stack project with Next.js, Tailwind CSS, MongoDB, NextAuth, and Shadcn.",
     link: "#",
   },
   {
     title: "Lunch Money",
     thumbnail: "/lunchmoney.png",
-    stack: ["/nextjs.png", "/bootstrap.svg", "/mongodb.svg","twilio.svg"],
+    stack: ["/nextjs.png", "/bootstrap.svg", "/mongodb.svg", "twilio.svg"],
     type: "Full Stack Development",
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "A platform where users can rate their lunch experience and get a chance to win a free lunch. It is a full stack project with Next.js, Bootstrap, MongoDB, and Twilio.",
     link: "https://lunchmoney.io/",
   },
   {
@@ -35,7 +44,7 @@ const projects = [
     stack: ["/nextjs.png", "/bootstrap.svg"],
     type: "Frontend Development",
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "An event website for R For Red. It was made for the event R For Red 2024 which is an awarness event for menstrual hygiene. It is a frontend project with Next.js and Bootstrap.",
     link: "https://rforred2024.anahatngo.org/",
   },
   {
@@ -44,7 +53,7 @@ const projects = [
     stack: ["/nextjs.png", "/bootstrap.svg"],
     type: "Frontend Development",
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "A website for Carca Rapid Solutions. It is a frontend project with Next.js and Bootstrap.",
     link: "https://www.carcarapid.in/",
   },
   {
@@ -53,7 +62,7 @@ const projects = [
     stack: ["/nextjs.png", "/nodejs.svg", "mongodb.svg", "/chakra.svg"],
     type: "Full Stack Development",
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "A platform where users can list their phone numbers to be added to the Do Not Call list. It is a full stack project with Next.js, Node.js, MongoDB, and Chakra UI.",
     link: "#",
   },
   {
@@ -62,7 +71,7 @@ const projects = [
     stack: ["/react.svg", "/nodejs.svg", "mongodb.svg", "/chakra.svg"],
     type: "Full Stack Development",
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "A platform where users can upload audio files and get the transcribed text. It is a full stack project with React, Node.js, MongoDB, and Chakra UI.",
     link: "#",
   },
   {
@@ -71,7 +80,7 @@ const projects = [
     stack: ["/react.svg", "/bootstrap.svg"],
     type: "Frontend Development",
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "A platform where users can invest in bitcoin mining. It is a frontend project with React and Bootstrap.",
     link: "#",
   },
 ];
@@ -94,6 +103,7 @@ export default function Projects() {
                       alt="Placeholder"
                       className="h-full w-full cursor-pointer rounded-xl object-cover"
                       layout="fill"
+                      priority
                     />
                   </div>
                   <div className="py-4">
@@ -103,7 +113,7 @@ export default function Projects() {
                     <p className="mt-1 text-xs font-medium uppercase text-gray-500 dark:text-neutral-500">
                       {project.type}
                     </p>
-                    <p className="mt-2 text-gray-500 dark:text-neutral-400">
+                    <p className="mt-2 line-clamp-2 text-gray-500 dark:text-neutral-400">
                       {project.description}
                     </p>
 

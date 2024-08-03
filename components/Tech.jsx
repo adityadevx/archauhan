@@ -19,66 +19,66 @@ import Nextjs from "./Svg/Nextjs";
 export default function Tech() {
   return (
     <>
-      <div class="mx-auto max-w-6xl text-gray-500">
-        <div class="mt-12 relative w-fit h-fit sm:mx-auto sm:px-0 -mx-6">
-          <div class="mb-3 flex w-fit mx-auto gap-3 text-gray-950 dark:text-white">
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+      <div className="mx-auto max-w-6xl text-gray-500">
+        <div className="mt-12 relative w-fit h-fit sm:mx-auto sm:px-0 -mx-6">
+          <div className="mb-3 flex w-fit mx-auto gap-3 text-gray-950 dark:text-white">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
               <Javascript />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
              <Twilio />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
               <NodeJs />
             </div>
           </div>
-          <div class="flex w-fit mx-auto gap-3">
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+          <div className="flex w-fit mx-auto gap-3">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
               <Tailwind />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
               <GoogleCloud />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
              <MongoDb />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
               <Ubuntu />
             </div>
           </div>
-          <div class="my-3 flex w-fit mx-auto gap-3">
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+          <div className="my-3 flex w-fit mx-auto gap-3">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
             <Html />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
              <Css />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
              <Cpp />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
              <Bootstrap />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
               <Figma />
             </div>
           </div>
-          <div class="flex w-fit mx-auto gap-3">
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+          <div className="flex w-fit mx-auto gap-3">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
              <ChakraUi />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
             <Aws />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
              <Nextjs />
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/5 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/5 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
            <ReactSvg />
             </div>
           </div>
-          <div class="mt-3 flex w-fit mx-auto gap-3">
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+          <div className="mt-3 flex w-fit mx-auto gap-3">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
@@ -181,7 +181,7 @@ export default function Tech() {
                 </g>
               </svg>
             </div>
-            <div class="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+            <div className="border flex relative *:relative *:size-7 *:m-auto md:size-20 size-16 mx-auto rounded-xl dark:bg-gray-900 dark:border-white/15 before:rounded-xl before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
