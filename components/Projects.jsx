@@ -89,10 +89,10 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="container mx-auto max-w-[85rem] px-4 text-white">
-        <h1 className="mt-10 text-start text-5xl font-semibold md:text-6xl">
+        <h1 className="md:mt-10 mt-5 text-start text-4xl font-semibold md:text-6xl">
           Projects
         </h1>
-        <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
+        <div className="md:mt-10 mt-5 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
           {projects.map((project) => {
             return (
               <div className="border-3 overflow-hidden rounded-xl border-white shadow-lg">
