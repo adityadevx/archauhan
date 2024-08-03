@@ -6,13 +6,13 @@ export default function Footer() {
     <footer className="w-full">
       <div className="mx-auto mt-auto w-full max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8">
         <div className="mt-5 grid gap-y-2 sm:flex sm:items-center sm:justify-between sm:gap-y-0">
-          <div className="flex items-center justify-between">
-            <p className="text-sm font-semibold text-white">
+          <div className="flex items-center md:justify-between justify-center">
+            <p className="text-lg font-semibold text-white">
               © 2024 AR CHAUHAN. All rights reserved.
             </p>
           </div>
 
-          <div className="flex space-x-3">
+          <div className="flex space-x-3 justify-center">
             <Link
               className="inline-flex size-10 items-center justify-center gap-x-2 rounded-lg border border-transparent text-sm font-semibold text-white hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-gray-600 disabled:pointer-events-none disabled:opacity-50"
               href="https://www.facebook.com/profile.php?id=100076317266956"
