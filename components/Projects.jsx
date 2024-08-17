@@ -6,6 +6,7 @@ import Link from "next/link";
 
 const projects = [
   {
+    id: 1,
     title: "Food Commerce (College Project)",
     thumbnail: "/food-commerce.png",
     stack: ["/nextjs.png", "/tailwind.svg", "/mongodb.svg", "/nextauth.png"],
@@ -15,6 +16,7 @@ const projects = [
     link: "#",
   },
   {
+    id: 2,
     title: "Care For Indians",
     thumbnail: "/careforindians.png",
     stack: [
@@ -30,6 +32,7 @@ const projects = [
     link: "#",
   },
   {
+    id: 3,
     title: "Lunch Money",
     thumbnail: "/lunchmoney.png",
     stack: ["/nextjs.png", "/bootstrap.svg", "/mongodb.svg", "twilio.svg"],
@@ -39,6 +42,7 @@ const projects = [
     link: "https://lunchmoney.io/",
   },
   {
+    id: 4,
     title: "R For Red",
     thumbnail: "/rforred.png",
     stack: ["/nextjs.png", "/bootstrap.svg"],
@@ -48,6 +52,7 @@ const projects = [
     link: "https://rforred2024.anahatngo.org/",
   },
   {
+    id: 5,
     title: "Carca Rapid Solutions",
     thumbnail: "/carca.png",
     stack: ["/nextjs.png", "/bootstrap.svg"],
@@ -57,6 +62,7 @@ const projects = [
     link: "https://www.carcarapid.in/",
   },
   {
+    id: 6,
     title: "DNC Tool",
     thumbnail: "/dnc.png",
     stack: ["/nextjs.png", "/nodejs.svg", "mongodb.svg", "/chakra.svg"],
@@ -66,6 +72,7 @@ const projects = [
     link: "#",
   },
   {
+    id: 7,
     title: "Transcribe Audio",
     thumbnail: "/transcribe.png",
     stack: ["/react.svg", "/nodejs.svg", "mongodb.svg", "/chakra.svg"],
@@ -75,6 +82,7 @@ const projects = [
     link: "#",
   },
   {
+    id: 8,
     title: "Btc Farm",
     thumbnail: "/btcfarm.png",
     stack: ["/react.svg", "/bootstrap.svg"],
@@ -89,21 +97,24 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="container mx-auto max-w-[85rem] px-4 text-white">
-        <h1 className="md:mt-10 mt-5 text-start text-4xl font-semibold md:text-6xl">
+        <h1 className="mt-5 text-start text-4xl font-semibold md:mt-10 md:text-6xl">
           Projects
         </h1>
-        <div className="md:mt-10 mt-5 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
+        <div className="mt-5 grid grid-cols-1 gap-8 md:mt-10 md:grid-cols-3 lg:grid-cols-3">
           {projects.map((project) => {
             return (
-              <div className="border-3 overflow-hidden rounded-xl border-white shadow-lg">
+              <div
+                className="border-3 overflow-hidden rounded-xl border-white shadow-lg"
+                key={project.id}
+              >
                 <div className="flex flex-col rounded-xl border-2 bg-white p-4 shadow-sm hover:border-white md:p-4 dark:border-neutral-700 dark:bg-neutral-900 dark:shadow-neutral-700/70">
                   <div className="relative h-64">
                     <Image
                       src={project.thumbnail}
-                      alt="Placeholder"
+                      alt={project.title}
                       className="h-full w-full cursor-pointer rounded-xl object-cover"
-                      layout="fill"
                       priority
+                      fill
                     />
                   </div>
                   <div className="py-4">
