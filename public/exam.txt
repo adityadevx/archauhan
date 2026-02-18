@@ -1,0 +1,19 @@
+Python 
+
+Branching statement 
+Loop
+Function
+Python syllabus/suggestion for ca3
+
+DBMS
+
+Sql and types 
+Joining with example 
+Aggregate function with example 
+Diff greatest vs Max
+Pl/SQL Definition, syntax 
+Simple program 
+Cursor: parameterized and ..
+Transaction: ACID properties , 2 phase locking protocol
+ERD: symbols and cardinality
+
